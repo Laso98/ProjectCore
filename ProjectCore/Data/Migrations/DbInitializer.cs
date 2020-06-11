@@ -22,7 +22,7 @@ namespace ProjectCore.Models
                 }
             }
 
-            IdentityUser user = await UserManager.FindByNameAsync("luissegura5471@gmail.com");
+            IdentityUser user = await UserManager.FindByNameAsync("luissegura@gmail.com");
 
             await UserManager.AddToRoleAsync(user, "Admin");
 
